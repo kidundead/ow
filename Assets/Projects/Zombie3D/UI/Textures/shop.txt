@@ -1,0 +1,12 @@
+11	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\biao1.png	0	535	438	192
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\biao2.png	438	535	438	192
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\biao3.png	0	727	448	200
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP.png	0	0	878	526
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP2.png	878	0	76	106
+6	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP2-2.png	878	106	76	106
+7	D:\work3D\art\UI\UIÇÐÍ¼\FIX\day.png	0	928	358	76
+8	D:\work3D\art\UI\UIÇÐÍ¼\FIX\map2.png	448	902	356	112
+9	D:\work3D\art\UI\UIÇÐÍ¼\FIX\map.png	448	790	356	112
+10	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP2-copy.png	878	212	76	106
+11	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP2-2-copy.png	878	318	76	106

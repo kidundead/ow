@@ -1,0 +1,23 @@
+22	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\background.png	0	0	960	640
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\back.png	0	640	130	70
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\back2.png	130	640	130	70
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\1.png	260	640	130	74
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\1-2.png	390	640	130	74
+6	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\2.png	520	640	264	64
+7	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\7.png	532	704	424	108
+8	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\7-2.png	532	812	424	108
+9	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\10.png	532	920	24	22
+10	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\8.png	532	942	24	22
+11	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\10-2.png	532	964	24	22
+12	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\8-2.png	532	986	24	22
+13	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\close.png	556	920	88	80
+14	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\closecopy.png	644	920	88	80
+15	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\12-2.png	960	0	36	26
+16	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-prepare\12.png	960	26	36	26
+17	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\spinner.png	960	52	52	52
+18	D:\work3D\art\UI\UIÇÐÍ¼\FIX\get	960	52	0	0
+19	D:\work3D\art\UI\UIÇÐÍ¼\FIX\get	960	52	0	0
+20	D:\work3D\art\UI\UIÇÐÍ¼\FIX\get money.png	0	776	532	112
+21	D:\work3D\art\UI\UIÇÐÍ¼\FIX\get money2.png	0	888	532	112
+22	D:\work3D\art\UI\UIÇÐÍ¼\FIX\money.png	0	716	314	60

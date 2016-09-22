@@ -1,0 +1,2 @@
+1	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\credits\UI-credits.png	0	0	960	640

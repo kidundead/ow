@@ -1,0 +1,5 @@
+4	filename	x	y	width	height
+1	D:\work3D\art\UI\UIÇÐÍ¼\RPG-7.png	0	0	438	192
+2	D:\work3D\art\UI\UIÇÐÍ¼\Laser.png	438	0	438	192
+3	D:\work3D\art\UI\UIÇÐÍ¼\PGM.png	0	192	438	192
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\ARMOR.png	438	192	438	192

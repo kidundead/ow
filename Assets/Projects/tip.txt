@@ -1,0 +1,8 @@
+sunqf(ËïÆä·ï) 10:16:13
+UIRequiredDeviceCapabilities
+
+<key>UIRequiredDeviceCapabilities</key>
+<dict>
+    	<key>opengles-2</key>
+           <false>
+</dict>

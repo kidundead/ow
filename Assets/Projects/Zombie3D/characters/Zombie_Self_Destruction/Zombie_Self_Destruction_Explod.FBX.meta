@@ -1,0 +1,171 @@
+fileFormatVersion: 1
+guid: f1bea92c9e67ab64187789f9323ca6d6
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Dummy01:
+    - 100000
+    - 400000
+    Dummy16:
+    - 100002
+    - 400002
+    Dummy03:
+    - 100004
+    - 400004
+    Dummy12:
+    - 100006
+    - 400006
+    Dummy05:
+    - 100008
+    - 400008
+    Zombie_Self_Destruction_Part_17:
+    - 100010
+    - 400010
+    - 13700000
+    Zombie_Self_Destruction_Part_16:
+    - 100012
+    - 400012
+    - 13700002
+    Zombie_Self_Destruction_Part_06:
+    - 100014
+    - 400014
+    - 13700004
+    Zombie_Self_Destruction_Part_05:
+    - 100016
+    - 400016
+    - 13700006
+    Dummy06:
+    - 100018
+    - 400018
+    Dummy11:
+    - 100020
+    - 400020
+    Dummy15:
+    - 100022
+    - 400022
+    Dummy14:
+    - 100024
+    - 400024
+    Dummy13:
+    - 100026
+    - 400026
+    Bone01:
+    - 100028
+    - 400028
+    Zombie_Self_Destruction_Part_04:
+    - 100030
+    - 400030
+    - 13700008
+    Zombie_Self_Destruction_Part_07:
+    - 100032
+    - 400032
+    - 13700010
+    Zombie_Self_Destruction_Part_02:
+    - 100034
+    - 400034
+    - 13700012
+    Dummy07:
+    - 100036
+    - 400036
+    Zombie_Self_Destruction_Part_11:
+    - 100038
+    - 400038
+    - 13700014
+    Zombie_Self_Destruction_Part_09:
+    - 100040
+    - 400040
+    - 13700016
+    Zombie_Self_Destruction_Part_14:
+    - 100042
+    - 400042
+    - 13700018
+    Zombie_Self_Destruction_Part_01:
+    - 100044
+    - 400044
+    - 13700020
+    Zombie_Self_Destruction_Part_03:
+    - 100046
+    - 400046
+    - 13700022
+    Zombie_Self_Destruction_Part_15:
+    - 100048
+    - 400048
+    - 13700024
+    Zombie_Self_Destruction_Part_12:
+    - 100050
+    - 400050
+    - 13700026
+    Zombie_Self_Destruction_Part_13:
+    - 100052
+    - 400052
+    - 13700028
+    Zombie_Self_Destruction_Part_08:
+    - 100054
+    - 400054
+    - 13700030
+    Dummy17:
+    - 100056
+    - 400056
+    Dummy04:
+    - 100058
+    - 400058
+    Zombie_Self_Destruction_Part_10:
+    - 100060
+    - 400060
+    - 13700032
+    Dummy08:
+    - 100062
+    - 400062
+    Dummy02:
+    - 100064
+    - 400064
+    Dummy09:
+    - 100066
+    - 400066
+    Dummy10:
+    - 100068
+    - 400068
+    //RootNode:
+    - 100070
+    - 400070
+    - 11100000
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Zombie_Self_Destruction_Part_01
+    4300002: Zombie_Self_Destruction_Part_02
+    4300004: Zombie_Self_Destruction_Part_03
+    4300006: Zombie_Self_Destruction_Part_04
+    4300008: Zombie_Self_Destruction_Part_05
+    4300010: Zombie_Self_Destruction_Part_06
+    4300012: Zombie_Self_Destruction_Part_07
+    4300014: Zombie_Self_Destruction_Part_08
+    4300016: Zombie_Self_Destruction_Part_09
+    4300018: Zombie_Self_Destruction_Part_10
+    4300020: Zombie_Self_Destruction_Part_11
+    4300022: Zombie_Self_Destruction_Part_12
+    4300024: Zombie_Self_Destruction_Part_13
+    4300026: Zombie_Self_Destruction_Part_14
+    4300028: Zombie_Self_Destruction_Part_15
+    4300030: Zombie_Self_Destruction_Part_16
+    4300032: Zombie_Self_Destruction_Part_17
+    7400000: Take 001 //// Zombie_Self_Destruction_Explod

@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: ab72646d1913e4a43a918e08ce92a00c
+timeCreated: 1474508687
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l
+    100004: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r
+    100006: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice
+    100008: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice2
+    100010: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3
+    100012: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4
+    100014: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd6Lattice
+    100016: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd7Lattice
+    100018: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model
+    100020: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig
+    100022: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group1
+    100024: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10
+    100026: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11
+    100028: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group2
+    100030: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group3
+    100032: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group4
+    100034: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group5
+    100036: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group6
+    100038: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group7
+    100040: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group8
+    100042: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group9
+    100044: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29
+    100046: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30
+    100048: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31
+    100050: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32
+    100052: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33
+    100054: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34
+    100056: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint35
+    100058: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint36
+    100060: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint37
+    100062: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint38
+    100064: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint39
+    100066: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint40
+    100068: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint41
+    100070: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint42
+    100072: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43
+    100074: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint44
+    100076: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint45
+    100078: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint46
+    100080: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint47
+    100082: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint48
+    100084: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail1Handle
+    100086: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail2Handle
+    100088: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail3Handle
+    100090: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail4Handle
+    100092: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail5Handle
+    100094: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail6Handle
+    100096: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail7Handle
+    100098: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail8Handle
+    100100: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_l
+    100102: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_r
+    100104: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+    100106: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+    100108: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface134
+    100110: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+    100112: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+    100114: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+    100116: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+    100118: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+    100120: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+    400000: //RootNode
+    400002: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l
+    400004: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r
+    400006: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice
+    400008: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice2
+    400010: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3
+    400012: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4
+    400014: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd6Lattice
+    400016: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd7Lattice
+    400018: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model
+    400020: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig
+    400022: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group1
+    400024: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10
+    400026: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11
+    400028: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group2
+    400030: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group3
+    400032: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group4
+    400034: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group5
+    400036: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group6
+    400038: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group7
+    400040: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group8
+    400042: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group9
+    400044: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29
+    400046: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30
+    400048: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31
+    400050: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32
+    400052: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33
+    400054: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34
+    400056: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint35
+    400058: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint36
+    400060: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint37
+    400062: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint38
+    400064: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint39
+    400066: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint40
+    400068: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint41
+    400070: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint42
+    400072: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43
+    400074: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint44
+    400076: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint45
+    400078: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint46
+    400080: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint47
+    400082: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint48
+    400084: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail1Handle
+    400086: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail2Handle
+    400088: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail3Handle
+    400090: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail4Handle
+    400092: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail5Handle
+    400094: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail6Handle
+    400096: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail7Handle
+    400098: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail8Handle
+    400100: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_l
+    400102: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_r
+    400104: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+    400106: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+    400108: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface134
+    400110: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+    400112: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+    400114: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+    400116: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+    400118: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+    400120: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+    2300000: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+    2300002: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+    2300004: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+    2300006: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+    2300008: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+    2300010: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+    2300012: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+    2300014: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+    3300000: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+    3300002: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+    3300004: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+    3300006: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+    3300008: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+    3300010: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+    3300012: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+    3300014: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+    4300000: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface134
+    4300002: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+    4300004: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+    4300006: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+    4300008: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+    4300010: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+    4300012: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+    4300014: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+    4300016: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+    7400000: swim
+    7400002: dead
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface134
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: swim
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group9
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface134
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group7
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group7/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group8
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group8/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group5
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group5/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group6
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group6/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd6Lattice
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd7Lattice
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_r
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice2
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice2/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_l
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint35
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint35/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint36
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint39
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint39/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint40
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint41
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint41/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint42
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint37
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint37/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint38
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint45
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint45/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint46
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint47
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint47/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint48
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint44
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group1
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group2
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group3
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group4
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail1Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail2Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail3Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail4Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail5Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail6Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail7Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail8Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dead
+      takeName: Take 001
+      firstFrame: 71
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group9
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface134
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface135
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_model/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface136
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group7
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group7/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface97
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group8
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice3/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_l/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group8/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface98
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group5
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group5/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface19
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group6
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice4/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:eye_r/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group6/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface20
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd6Lattice
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group10/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd7Lattice
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_r
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice2
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group11/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:ffd1Lattice2/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:mouth_jiao_l
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint35
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint34/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint35/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint36
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint39
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint39/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint40
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint41
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint32/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint33/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint41/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint42
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint37
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint37/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint38
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint45
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint45/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint46
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint47
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint31/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint47/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint48
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint44
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint30/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint43/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface129
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:fish_012_rig/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:joint29/fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:polySurface128
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group1
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group2
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group3
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:group4
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail1Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail2Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail3Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail4Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail5Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail6Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail7Handle
+        weight: 1
+      - path: fish_l_01_Fat_rend_1_20_60_71_:fish_012_ani2_1_40_60_80_:motionTrail8Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

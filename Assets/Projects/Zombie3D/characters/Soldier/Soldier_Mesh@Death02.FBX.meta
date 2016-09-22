@@ -1,0 +1,116 @@
+fileFormatVersion: 1
+guid: 1f32a72768af68e43a56ad75eaac0186
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    Dummy01:
+    - 100002
+    - 400002
+    Bip01 Pelvis:
+    - 100004
+    - 400004
+    Bip01 L Clavicle:
+    - 100006
+    - 400006
+    Bip01 R UpperArm:
+    - 100008
+    - 400008
+    Bip01 R Toe0:
+    - 100010
+    - 400010
+    Bip01 L Calf:
+    - 100012
+    - 400012
+    Bip01 Spine1:
+    - 100014
+    - 400014
+    Weapon_Dummy:
+    - 100016
+    - 400016
+    Bip01 R Forearm:
+    - 100018
+    - 400018
+    Bip01 L Toe0:
+    - 100020
+    - 400020
+    Bip01:
+    - 100022
+    - 400022
+    Bip01 L Toe0Nub:
+    - 100024
+    - 400024
+    Bip01 Neck:
+    - 100026
+    - 400026
+    Bip01 HeadNub:
+    - 100028
+    - 400028
+    Bip01 L UpperArm:
+    - 100030
+    - 400030
+    Bip01 L Hand:
+    - 100032
+    - 400032
+    Bip01 R Thigh:
+    - 100034
+    - 400034
+    Bip01 R Hand:
+    - 100036
+    - 400036
+    Bip01 R Calf:
+    - 100038
+    - 400038
+    Bip01 R Foot:
+    - 100040
+    - 400040
+    Bip01 R Clavicle:
+    - 100042
+    - 400042
+    Bip01 L Foot:
+    - 100044
+    - 400044
+    Bip01 L Thigh:
+    - 100046
+    - 400046
+    Bip01 L Forearm:
+    - 100048
+    - 400048
+    Bip01 Footsteps:
+    - 100050
+    - 400050
+    Bip01 Spine:
+    - 100052
+    - 400052
+    Bip01 Head:
+    - 100054
+    - 400054
+    Bip01 R Toe0Nub:
+    - 100056
+    - 400056
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    7400000: Take 001 //// Soldier_Mesh@Death02

@@ -1,0 +1,12 @@
+_TextureManager->CreateTexture("shopImage", "Image/shop.png");
+_TextureManager->CreateFrame("biao1Frame", "shopImage", Rect(0, 535, 438, 192));
+_TextureManager->CreateFrame("biao2Frame", "shopImage", Rect(438, 535, 438, 192));
+_TextureManager->CreateFrame("biao3Frame", "shopImage", Rect(0, 727, 448, 200));
+_TextureManager->CreateFrame("SHOPFrame", "shopImage", Rect(0, 0, 878, 526));
+_TextureManager->CreateFrame("SHOP2Frame", "shopImage", Rect(878, 0, 76, 106));
+_TextureManager->CreateFrame("SHOP2-2Frame", "shopImage", Rect(878, 106, 76, 106));
+_TextureManager->CreateFrame("dayFrame", "shopImage", Rect(0, 928, 358, 76));
+_TextureManager->CreateFrame("map2Frame", "shopImage", Rect(448, 902, 356, 112));
+_TextureManager->CreateFrame("mapFrame", "shopImage", Rect(448, 790, 356, 112));
+_TextureManager->CreateFrame("SHOP2-copyFrame", "shopImage", Rect(878, 212, 76, 106));
+_TextureManager->CreateFrame("SHOP2-2-copyFrame", "shopImage", Rect(878, 318, 76, 106));

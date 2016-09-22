@@ -1,0 +1,13 @@
+12	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-buttons\TY6.png	0	0	356	116
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-buttons\TY6copy.png	0	116	356	116
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-buttons\ty7copy.png	356	0	148	80
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-buttons\ty7.png	356	80	148	80
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\UI-buttons\TY8.png	0	232	260	76
+6	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\bullets\zidan5.png	0	308	44	52
+7	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\bullets\zidan6.png	44	308	44	52
+8	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\bullets\zidan3.png	88	308	44	52
+9	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\bullets\zidan1.png	132	308	44	52
+10	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\bullets\zidan2.png	176	308	44	52
+11	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\bullets\zidan4.png	220	308	44	52
+12	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\gameui\day-00.png	264	232	210	108

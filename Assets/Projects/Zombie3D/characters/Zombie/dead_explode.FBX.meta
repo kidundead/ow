@@ -1,0 +1,64 @@
+fileFormatVersion: 1
+guid: 73eee45fe20e8db41a9e38d2d3df7ce3
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 2
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Dummy02:
+    - 100000
+    - 400000
+    //RootNode:
+    - 100002
+    - 400002
+    - 11100000
+    Object01:
+    - 100004
+    - 400004
+    - 13700000
+    Dummy01:
+    - 100006
+    - 400006
+    Object03:
+    - 100008
+    - 400008
+    - 13700002
+    Bone01:
+    - 100010
+    - 400010
+    Dummy03:
+    - 100012
+    - 400012
+    Object02:
+    - 100014
+    - 400014
+    - 13700004
+    Object04:
+    - 100016
+    - 400016
+    - 13700006
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Object02
+    4300002: Object04
+    4300004: Object01
+    4300006: Object03
+    7400000: Take 001 //// dead_explode

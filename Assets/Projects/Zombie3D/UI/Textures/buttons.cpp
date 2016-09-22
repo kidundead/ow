@@ -1,0 +1,13 @@
+_TextureManager->CreateTexture("buttonsImage", "Image/buttons.png");
+_TextureManager->CreateFrame("TY6Frame", "buttonsImage", Rect(0, 0, 356, 116));
+_TextureManager->CreateFrame("TY6copyFrame", "buttonsImage", Rect(0, 116, 356, 116));
+_TextureManager->CreateFrame("ty7copyFrame", "buttonsImage", Rect(356, 0, 148, 80));
+_TextureManager->CreateFrame("ty7Frame", "buttonsImage", Rect(356, 80, 148, 80));
+_TextureManager->CreateFrame("TY8Frame", "buttonsImage", Rect(0, 232, 260, 76));
+_TextureManager->CreateFrame("zidan5Frame", "buttonsImage", Rect(0, 308, 44, 52));
+_TextureManager->CreateFrame("zidan6Frame", "buttonsImage", Rect(44, 308, 44, 52));
+_TextureManager->CreateFrame("zidan3Frame", "buttonsImage", Rect(88, 308, 44, 52));
+_TextureManager->CreateFrame("zidan1Frame", "buttonsImage", Rect(132, 308, 44, 52));
+_TextureManager->CreateFrame("zidan2Frame", "buttonsImage", Rect(176, 308, 44, 52));
+_TextureManager->CreateFrame("zidan4Frame", "buttonsImage", Rect(220, 308, 44, 52));
+_TextureManager->CreateFrame("day-00Frame", "buttonsImage", Rect(264, 232, 210, 108));

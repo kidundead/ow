@@ -1,0 +1,60 @@
+fileFormatVersion: 1
+guid: a8ce0b0c7fda8c548881df4fd4e14888
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    Dummy04:
+    - 100002
+    - 400002
+    Bone02:
+    - 100004
+    - 400004
+    Bone03:
+    - 100006
+    - 400006
+    Circle01:
+    - 100008
+    - 400008
+    - 3300000
+    - 2300000
+    Dummy02:
+    - 100010
+    - 400010
+    Bone01:
+    - 100012
+    - 400012
+    Dummy03:
+    - 100014
+    - 400014
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Soldier_Suit
+    4300002: Object02
+    4300004: Object03
+    4300006: Object04
+    4300008: Circle01
+    7400000: Take 001 //// Body_Mesh@Death01

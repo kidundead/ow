@@ -1,0 +1,11 @@
+10	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\P90.png	438	0	438	192
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\AK-47.png	438	192	438	192
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\AUG.png	0	384	438	192
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\Winchester1200.png	438	384	438	192
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\XM1014.png	0	576	438	192
+6	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\Remington870.png	438	576	438	192
+7	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\SAW.png	0	768	438	192
+8	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\Gatlin.png	438	768	438	192
+9	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\M4-fix.png	0	192	438	192
+10	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\MP5-fix.png	0	0	438	192

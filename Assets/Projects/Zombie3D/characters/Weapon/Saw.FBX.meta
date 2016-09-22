@@ -1,0 +1,44 @@
+fileFormatVersion: 1
+guid: dae7cc4be821e084fb5ab147e58bcc5f
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Saw02:
+    - 100000
+    - 400000
+    - 13700000
+    Bone01:
+    - 100002
+    - 400002
+    //RootNode:
+    - 100004
+    - 400004
+    - 11100000
+    Saw01:
+    - 100006
+    - 400006
+    - 13700002
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Saw01
+    4300002: Saw02

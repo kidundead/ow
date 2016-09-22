@@ -1,0 +1,114 @@
+fileFormatVersion: 1
+guid: 13d5ab755efb0674eb2536c6451ad784
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Dummy01:
+    - 100000
+    - 400000
+    //RootNode:
+    - 100002
+    - 400002
+    - 11100000
+    Bip01 L Thigh:
+    - 100004
+    - 400004
+    Bip01 R Foot:
+    - 100006
+    - 400006
+    Bip01 R Thigh:
+    - 100008
+    - 400008
+    Bip01 L Hand:
+    - 100010
+    - 400010
+    Bip01 L Forearm:
+    - 100012
+    - 400012
+    Bip01 R Toe0Nub:
+    - 100014
+    - 400014
+    Bip01 L Toe0Nub:
+    - 100016
+    - 400016
+    Bip01 L Clavicle:
+    - 100018
+    - 400018
+    Bip01 Spine1:
+    - 100020
+    - 400020
+    Bip01 Pelvis:
+    - 100022
+    - 400022
+    Bip01 R Toe0:
+    - 100024
+    - 400024
+    Bip01 L Foot:
+    - 100026
+    - 400026
+    Bip01 R Forearm:
+    - 100028
+    - 400028
+    Bip01 R Hand:
+    - 100030
+    - 400030
+    Bip01 R Calf:
+    - 100032
+    - 400032
+    Bip01 Spine:
+    - 100034
+    - 400034
+    Bip01 L Calf:
+    - 100036
+    - 400036
+    Bip01 HeadNub:
+    - 100038
+    - 400038
+    Bip01 R UpperArm:
+    - 100040
+    - 400040
+    Bip01 Neck:
+    - 100042
+    - 400042
+    Bip01 R Clavicle:
+    - 100044
+    - 400044
+    Bip01:
+    - 100046
+    - 400046
+    Bip01 Head:
+    - 100048
+    - 400048
+    Bip01 L Toe0:
+    - 100050
+    - 400050
+    Bip01 Footsteps:
+    - 100052
+    - 400052
+    Bip01 L UpperArm:
+    - 100054
+    - 400054
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    7400000: Take 001 //// Zombie_Fat_Mesh@Run
+    7400002: Take 001 //// Bip01

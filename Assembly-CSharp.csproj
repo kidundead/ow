@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2CB32B9B-D944-4C85-49DD-B73F9106857E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_6;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Projects\Zombie3D\Script\Camera\BaseCameraScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Camera\DelayCameraDisplayScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Camera\LookAtCameraScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Camera\TPSSimpleCameraScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Camera\TopWatchingCameraScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\AI\FastPathFinding.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\AI\GraphPathFinding.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\AI\IPathFinding.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\AI\TankGraphPathFinding.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\AI\WayPointScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\BodyExplodeScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Boomer.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\CopBombScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\FatZombieControllerHitScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Hunter.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Nurse.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\AttackState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\BoomerExplodeState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\CatchingState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\DeadState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\EnemyState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\GotHitState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\GraveBornState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\IdleState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\JumpState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\LookAroundState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\PatrolState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\RushingAttackState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\RushingStartState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\State\RushingState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Swat.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Tank.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Enemy\Zombie.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Flurry\FlurryTAd.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\AchievementState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\Constant.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameApp.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameConfig.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameParemetersXML.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameScene.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameScriptMultiplayer.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\GameState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Game\ResourceConfigScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\GameCenter\GameCenterInterface.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\IAP\Shop.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\IAP\iap.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Items\ItemScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Items\LootManagerScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Items\WoodBoxScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\Algorithem.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\AlphaAnimationScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\Animation2DScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\AudioPlayer.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\BodyGeneratorScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\CameraFadeScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\ClipNearScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\FadeAnimationScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\InitiatePerformanceScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\LaserTrembleScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\MoveAroundScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\ObjectPool.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\OneShotParticleScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\PlayAnimationScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\PopoAnimationScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\RayCastScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\RemoveTimerScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\RotateByTimeScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\ScaleAnimationScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\ScreenBloodScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\ScreenDirection.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\Timer.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\TimerManager.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Misc\UVAnimationScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Network\ConnectScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Network\PlayerNetworkViewScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\AvatarFactory.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\ControllerHitScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\InputController.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\Player.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\PlayerSpawnScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerDeadState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerGotHitState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerIdleState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerRunAndShootState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerRunState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerShootState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\State\PlayerState.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\TPSInputController.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Player\TopWatchingInputController.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Quest\BombQuest.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Quest\BombSpot.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Quest\KillAllQuest.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Quest\Quest.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Quest\SurvivalQuest.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\ThreadScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Triggers\ArenaTriggerFromConfigScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Triggers\ArenaTriggerScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Triggers\EnemySpawnScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Triggers\GraveScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Triggers\TriggerScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\ITutorialGameUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\ITutorialStep.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\ITutorialUIEvent.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step1Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step2Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step3Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step4Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step5Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step6Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step7Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step8Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\Step9Script.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Tutorial\TutorialScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\ArenaMenuUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\AvatarUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\CreditsMenuUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\EquipmentUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\GameOverUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\GameUIScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\MapSelectionUIScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\MapUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\MenuMusicScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\NewItemUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\OptionsMenuUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\PauseMenuUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\QuitMenuUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\ReviewDialogUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\SceneUIScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\ShopUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\StartMenuUIScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\TopDialogUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\TrinitiUIScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\UIResourceMgr.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\UITexturePositions.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UI\WeaponUpgradeUI.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UI3DFrame.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UIAnimatedImage.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UIColoredButton.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UIDialog.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UIDragGrid.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UIImageScroller.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UIPanel.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UITextButton.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UITextImage.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\UIPro\UITextSelectButton.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\AssaultRifle.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\DamageProperty.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\FireLineScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\GrenadeRifle.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\LaserGun.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\MachineGun.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\ProjectileScript.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\RocketLauncher.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\Saw.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\ShotGun.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\Sniper.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\Weapon.cs" />
+     <Compile Include="Assets\Projects\Zombie3D\Script\Weapon\WeaponFactory.cs" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\SolidTextureBright.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddStuff.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-GUITexture.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ExtractSkyboxShader.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-PrePassCollectShadows.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Resources\font2_cfg.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeApply.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShafts.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlendOnScreenTop.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Shadow-ScreenBlur.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\CutAlpha.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\StartMenu.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle Multiply.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\NormalExtrusion.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-BumpSpec.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\Standard Assets\Common\Shaders\Model.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\SoftOcclusion\SH_Vertex.cginc" />
+     <None Include="Assets\Projects\tip.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Resources\font1_cfg.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfFieldZRead.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Flare.shader" />
+     <None Include="Assets\Resources\font\font2_cfg.txt" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\arena_menu.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\LightMap_AmbientLight.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\Additive.shader" />
+     <None Include="Assets\Projects\Zombie3D\Editor\ShaderEditor\Resources\Internal\Temp\TempShader.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-Bumped.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend_VertexColor.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\SingleColor.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-Bumped.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\Weapon.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\Weapon2.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\DepthRGBA8RadialBlur.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\triniti_3gs.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\LightMap.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle AddSmooth.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-Diffuse.shader" />
+     <None Include="Assets\Resources\Arial12_bold_cfg.txt" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\game.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Projects\Zombie3D\Config\config.xml" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\Additive_VertexColor.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\PreDepthOfField.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlendOnScreenTop_Color.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\SingleColor_AlphaBlend.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-BlitCopy.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\CartoonRendering.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Skybox.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-Glossy.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\LightMap&amp;Fog.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SkyboxToRGBADepth.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-GUITextureClipText.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\SolidAndAlphaTexture.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-Parallax.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-PrePassLighting.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\AddAlphaHack.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\RecordCenterDepth.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Common\Shaders\Sprite.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\SolidTexture.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\SolidTextureTwoSides.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-Flare.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\credits.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-Parallax.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-Parallax.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\TreeCreator\Tree.cginc" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle MultiplyDouble.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-BumpNolight.shader" />
+     <None Include="Assets\Resources\font\font1_cfg.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\buttons.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-Bumped.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend_Bright.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\dialog.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Common\Shaders\ModelTransparent.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle Blend.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\triniti.txt" />
+     <None Include="Assets\Resources\font0_cfg.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-Bumped.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\AlphaTest-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle Premultiply Blend.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle VertexLit Blended.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-CombineDepthNormals.shader" />
+     <None Include="Assets\Projects\Zombie3D\Script\UI\callofminizombies.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\UI\UInew\1.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-GUITextureClip.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-Diffuse.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-DiffuseFast.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\map.txt" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\UI\UInew\2.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeBlurApply.shader" />
+     <None Include="Assets\Resources\font3_cfg.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Camera-DepthTexture.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-GUITextureBlit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Internal-Halo.shader" />
+     <None Include="Assets\Projects\Zombie3D\Config\复件 config.xml" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DofForegroundBlur.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Font.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\shop2.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Decal.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle Alpha Blend.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\shop.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Reflect-BumpVertexLit.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\Weapon3.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormalsHQ.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-Diffuse.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend_TwoSides.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle Add.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Illumin-VertexLit.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend_TwoSides_LightMap.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-Parallax.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Normal-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ClearExceptSkyboxShader.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\Additive_Bright.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend_Color.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Particle AddMultiply.shader" />
+     <None Include="Assets\Projects\Zombie3D\UI\Textures\avatar.txt" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\AlphaTest-Bumped.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\AlphaBlend_Color_TwoSides.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\CutEdgeAlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Common\Shaders\techTextureAlpha.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\skybox cubed.shader" />
+     <None Include="Assets\Standard Assets\Common\Shaders\ModelTransparent3.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\Iphone\ScreenEffect.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResources\Alpha-BumpSpec.shader" />
+     <None Include="Assets\Resources\font\font3_cfg.txt" />
+     <None Include="Assets\Projects\Zombie3D\Editor\ShaderEditor\Resources\Internal\TextureCopy.shader" />
+     <None Include="Assets\Projects\Zombie3D\Shaders\builtin_shaders\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{071734AC-1534-AC8D-BFC0-F3B3AD44D4FC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{CC7646AB-A6B6-26F1-E0C1-1C3172A2855D}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

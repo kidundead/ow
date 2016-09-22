@@ -1,0 +1,107 @@
+fileFormatVersion: 1
+guid: e49d1036a8f9500418a4bc40ce2e251d
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 2
+    tangentImportMode: 2
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Bone01:
+    - 100000
+    - 400000
+    Dummy02:
+    - 100002
+    - 400002
+    Dummy03:
+    - 100004
+    - 400004
+    Dummy06:
+    - 100006
+    - 400006
+    Dummy09:
+    - 100008
+    - 400008
+    Dummy04:
+    - 100010
+    - 400010
+    Dummy08:
+    - 100012
+    - 400012
+    Rock_06:
+    - 100014
+    - 400014
+    - 13700000
+    Rock_05:
+    - 100016
+    - 400016
+    - 13700002
+    Rock_07:
+    - 100018
+    - 400018
+    - 13700004
+    Rock_04:
+    - 100020
+    - 400020
+    - 13700006
+    Rock_08:
+    - 100022
+    - 400022
+    - 13700008
+    //RootNode:
+    - 100024
+    - 400024
+    - 11100000
+    Rock_01:
+    - 100026
+    - 400026
+    - 13700010
+    Dummy07:
+    - 100028
+    - 400028
+    Rock_03:
+    - 100030
+    - 400030
+    - 13700012
+    Dummy01:
+    - 100032
+    - 400032
+    Rock_09:
+    - 100034
+    - 400034
+    - 13700014
+    Rock_02:
+    - 100036
+    - 400036
+    - 13700016
+    Dummy05:
+    - 100038
+    - 400038
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Rock_01
+    4300002: Rock_02
+    4300004: Rock_03
+    4300006: Rock_04
+    4300008: Rock_05
+    4300010: Rock_06
+    4300012: Rock_07
+    4300014: Rock_08
+    4300016: Rock_09
+    7400000: Take 001 //// Rock

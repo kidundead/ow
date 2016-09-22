@@ -1,0 +1,6 @@
+5	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\start\UI-interface.png	0	0	960	640
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\start\UI-loading-3.png	0	640	104	60
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\start\UI-loading-33.png	104	640	104	60
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\start\UI-loading-4.png	208	640	104	60
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\start\UI-loading-44.png	312	640	104	60

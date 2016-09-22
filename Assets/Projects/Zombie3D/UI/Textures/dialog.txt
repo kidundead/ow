@@ -1,0 +1,3 @@
+2	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\dialog\1.png	0	0	574	306
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\dialog\13.png	0	306	490	176

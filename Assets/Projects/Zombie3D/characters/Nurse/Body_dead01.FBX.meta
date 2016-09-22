@@ -1,0 +1,91 @@
+fileFormatVersion: 1
+guid: 0826d546f5fe5574b89ff7e1c20ffe53
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 1
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 2
+    smoothingAngle: 60
+    splitTangents: 0
+  materials:
+    generation: 0
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 0
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Shoulder_L_D:
+    - 100000
+    - 400000
+    - 13700000
+    Shoulder_R_Dummy:
+    - 100002
+    - 400002
+    Body_U_Dummy:
+    - 100004
+    - 400004
+    Leg_L:
+    - 100006
+    - 400006
+    - 13700002
+    Shoulder_L_U:
+    - 100008
+    - 400008
+    - 13700004
+    Bone01:
+    - 100010
+    - 400010
+    //RootNode:
+    - 100012
+    - 400012
+    - 11100000
+    Shoulder_R:
+    - 100014
+    - 400014
+    - 13700006
+    Body_D:
+    - 100016
+    - 400016
+    - 13700008
+    Body_D_Dummy:
+    - 100018
+    - 400018
+    Leg_R_Dummy:
+    - 100020
+    - 400020
+    Leg_L_Dummy:
+    - 100022
+    - 400022
+    Body_U:
+    - 100024
+    - 400024
+    - 13700010
+    Shoulder_L_U_Dummy:
+    - 100026
+    - 400026
+    Shoulder_L_D_Dummy:
+    - 100028
+    - 400028
+    Leg_R:
+    - 100030
+    - 400030
+    - 13700012
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Leg_R
+    4300002: Shoulder_L_U
+    4300004: Shoulder_L_D
+    4300006: Body_U
+    4300008: Shoulder_R
+    4300010: Body_D
+    4300012: Leg_L
+    7400000: Take 001 //// Body_dead01

@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ResourceConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.1719546, y: -0.102394104, z: -21.109367}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ad9301c9681ff44bf905fe17076c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  human: {fileID: 100072, guid: a3ffe3ca8bc55da42a57d6187cc1b252, type: 2}
+  plumbers: {fileID: 100074, guid: 6aef8142c92f904438bfd82a6f52674c, type: 2}
+  marine: {fileID: 100072, guid: c4a1b3882150713408d26c1101102dc0, type: 2}
+  nerd: {fileID: 100074, guid: bdfa5020e7d922348a8d08653476bf39, type: 2}
+  doctor: {fileID: 100070, guid: f015c34ed7b764741b9487bc8cc588de, type: 2}
+  cowboy: {fileID: 100012, guid: b9f0c6fd23047d3428fe3a53268f0886, type: 2}
+  swat: {fileID: 100074, guid: 8ee68e6c6e762ae4bb17096a5a7ee559, type: 2}
+  enegyArmor: {fileID: 100000, guid: 5338136998a587a4cb2dc4cad3047108, type: 2}
+  mapData: {fileID: 100172, guid: 8e1f4a795351c0a478f4632ba515cb9a, type: 2}
+  reticle: {fileID: 2800000, guid: 42130d7ece5f6fd498f11a5ac9a24d2a, type: 3}
+  hitBlood: {fileID: 100000, guid: 5efb8f08245fa4d4d87938dd413bf867, type: 2}
+  deadBlood: {fileID: 100000, guid: b86f638f2d715f044bc724545dcd8108, type: 2}
+  deadFoorblood: {fileID: 100000, guid: 492629c8509277142b54ac6713d9d7f6, type: 2}
+  deadFoorblood2: {fileID: 100000, guid: 0e4a66f7ca6851d4b9b4d963abcf13e1, type: 2}
+  hitparticles: {fileID: 100000, guid: 39da692b3522a1c47b8204b163f826a6, type: 2}
+  projectile: {fileID: 100000, guid: 9affcf2824c1d17428c5c9144c6bd880, type: 2}
+  rocketExlposion: {fileID: 100002, guid: 783116fc12a24f04b8fbdc9da9b387a5, type: 2}
+  boomerExplosion: {fileID: 100002, guid: cf25ea5b5110e7949b9f126088d8a78f, type: 2}
+  shotgunfire: {fileID: 100000, guid: 2e9b6f0321870d04593cdb11d1d651d6, type: 2}
+  rpgFloor: {fileID: 100000, guid: 17896153a4b38e044974001b09cae171, type: 2}
+  laser: {fileID: 100000, guid: ebda24f74f7c2424a811a2de946411eb, type: 2}
+  laserHit: {fileID: 100000, guid: 41b6a81d267cd764ab95ee038eb30246, type: 2}
+  fireline: {fileID: 100000, guid: 355cb6e18c543e74893f8df942b8b6ae, type: 2}
+  bullets: {fileID: 100012, guid: 13614a8ef7e58584fa2cb106b793d00c, type: 2}
+  shotgunBullet: {fileID: 100006, guid: 3a7341485ce58cd449a8882e41182642, type: 2}
+  nurseSaliva: {fileID: 100000, guid: fc2b3deb5d84e8342a787c8eacc6f394, type: 2}
+  nurseSalivaProjectile: {fileID: 100000, guid: c692e41940e959a45b5a04dd3dbc11af,
+    type: 2}
+  salivaExplosion: {fileID: 100000, guid: 01c44ff0ad2b6de42833024d6fc40586, type: 2}
+  gunfire: {fileID: 100000, guid: 30258e5a51292d341b25c156f8c3462b, type: 2}
+  woodExplode: {fileID: 100006, guid: 67c341bd037fc4340bff30ee64129cbf, type: 2}
+  copBomb: {fileID: 100000, guid: 971682add1f69614c9eacf219d4d1138, type: 2}
+  halo: {fileID: 100000, guid: e2f18adbbd3909c4aa075f8135a57d38, type: 2}
+  graveRock: {fileID: 100000, guid: 26aa8bd8eeb7be643a8707c62c805976, type: 2}
+  m4: {fileID: 100000, guid: b877a275d27829f40adb5b10db7e9a3b, type: 2}
+  winchester1200: {fileID: 100002, guid: f8865154fbd7d2c4889fa8e5a4456b2f, type: 2}
+  ak47: {fileID: 100002, guid: d74a92122fbde5b44acb497fb63e7e6c, type: 2}
+  mp5: {fileID: 100000, guid: 90fe0c2b045da004a87c393aec91d85d, type: 2}
+  aug: {fileID: 100002, guid: b8d67605641b7814ba013a420bbb98ae, type: 2}
+  p90: {fileID: 100000, guid: eb141f28c44e65c4a85ca32d4440983a, type: 2}
+  gatlin: {fileID: 100000, guid: 658a809ee4d83104485e51c1500e1c9b, type: 2}
+  remington870: {fileID: 100000, guid: d05f8f9c84c3f364687c8e6d896c7435, type: 2}
+  xm1014: {fileID: 100004, guid: 861fa14f0e9b68248b06e8269ec20445, type: 2}
+  sniper: {fileID: 100000, guid: 2b48967c0ff373b4c9d033bf0547e92b, type: 2}
+  lasergun: {fileID: 100000, guid: fb358e2eb916dcf4aaf23987df2e22d1, type: 2}
+  saw: {fileID: 100000, guid: df3710086b9dc3548ac09660452a6d03, type: 2}
+  rpgGun: {fileID: 100000, guid: 96e19abda78691b4499b54337b6bef01, type: 2}
+  itemHP: {fileID: 100000, guid: 0426a134c28232b408502ae5d48b46db, type: 2}
+  itemPower: {fileID: 100000, guid: 96a8a1c75cac4b947bff2e8dd263bdf8, type: 2}
+  itemGold: {fileID: 100000, guid: cfa33ae142308434aa8bb89ce1607430, type: 2}
+  itemAssaultGun: {fileID: 100000, guid: f770891cb4ef47341a0db6b491b6d800, type: 2}
+  itemShotGun: {fileID: 100000, guid: b28912318a7987b4283cdb97f2e2a6b6, type: 2}
+  itemRocketLauncer: {fileID: 100000, guid: 56e6fcc3cfd50f2488cb07c6fbc7ec2d, type: 2}
+  itemGatlin: {fileID: 100000, guid: 61b7b9149206f1345acdf9357adbeb15, type: 2}
+  itemLaser: {fileID: 100004, guid: 90777a6489c8a874d994df6a2391bacc, type: 2}
+  itemMissle: {fileID: 100000, guid: 3fbc406613fe5b14ca6a6196c8b88d62, type: 2}
+  powerLogo: {fileID: 100000, guid: 14dcb3a9818121a4ab0e4b8767af3fa9, type: 2}
+  woodBoxes: {fileID: 100012, guid: 67f6c896238182541a8913f4419c2cf4, type: 2}
+  configXml: {fileID: 4900000, guid: cb99a5757c7e53844be9552f0c8db8c8, type: 3}
+  shareHtm: {fileID: 4900000, guid: 7c973d3a81dfc4a48aaf118105ab0f8b, type: 3}
+  menuAudio: {fileID: 8300000, guid: 610d56e8ced987d4b8645994c413f990, type: 3}
+  levels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemy:
+  - {fileID: 100000, guid: ee6788e726317a3468dd09efa266189d, type: 2}
+  - {fileID: 100000, guid: 4671d79996dcfdd4e8fa42536a97f88b, type: 2}
+  - {fileID: 100056, guid: ee466cdf2f1cd3741ba5ac65d72af19b, type: 2}
+  - {fileID: 100000, guid: 54d9acf0e78b37d4a8d76dd264d737ff, type: 2}
+  - {fileID: 100056, guid: 02d5162b0076bb142845d2a90d2edf3a, type: 2}
+  - {fileID: 100058, guid: c9852685794ffd84a9052c941bd9a7f0, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemy_elite:
+  - {fileID: 100000, guid: e884da86c4a38934aaffcbc6e93a169d, type: 2}
+  - {fileID: 100000, guid: f6cd83d514ffdc147bc741b4739c8463, type: 2}
+  - {fileID: 100056, guid: b6b2a60783f21474192cb11c1e94e871, type: 2}
+  - {fileID: 100000, guid: bcbc798d7327b024e90b78bc6c0d8aac, type: 2}
+  - {fileID: 100056, guid: 8283d0218bc9e1440bd71a11dbd90935, type: 2}
+  - {fileID: 100058, guid: db01a0382af5f1941b43ad31b1336b9e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  deadbody:
+  - {fileID: 100000, guid: 53bd7ed8b31c85c4aaf3cdcf70069d5a, type: 2}
+  - {fileID: 100000, guid: c26d93d46ad189046bd3a155f3999ac5, type: 2}
+  - {fileID: 100000, guid: 53bd7ed8b31c85c4aaf3cdcf70069d5a, type: 2}
+  - {fileID: 100000, guid: 53bd7ed8b31c85c4aaf3cdcf70069d5a, type: 2}
+  - {fileID: 100000, guid: 8a049fd99cd313445a830abcef0ca3b5, type: 2}
+  - {fileID: 100000, guid: 0460601fe8ef2844f94b4f9274a63c3e, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  deadhead:
+  - {fileID: 100000, guid: adc152ba383186946bde332bc6915b9e, type: 2}
+  - {fileID: 100000, guid: 7b6104d3897586f41a485b6b368ee72a, type: 2}
+  - {fileID: 100000, guid: adc152ba383186946bde332bc6915b9e, type: 2}
+  - {fileID: 100000, guid: adc152ba383186946bde332bc6915b9e, type: 2}
+  - {fileID: 100000, guid: 56c54f7f7507ecf4fb78b0df7e5b808d, type: 2}
+  - {fileID: 100000, guid: 3a4e235db015a6946a02ea2daf4ba175, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

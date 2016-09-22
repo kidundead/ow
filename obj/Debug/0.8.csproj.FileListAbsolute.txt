@@ -1,0 +1,17 @@
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Irrelvant.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Irrelvant.pdb
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Boo.Lang.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\StrumpyShaderEditor.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\UnityEditor.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\UnityEngine.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\UnityScript.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\nunit.framework.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Boo.Lang.Compiler.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Mono.Security.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Boo.Lang.Useful.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\UnityScript.Lang.dll
+D:\work3D\ammoshooting\0.8\Temp\bin\Debug\Boo.Lang.Parser.dll
+D:\work3D\ammoshooting\0.8\obj\Debug\ResolveAssemblyReference.cache
+D:\work3D\ammoshooting\0.8\obj\Debug\Irrelvant.dll
+D:\work3D\ammoshooting\0.8\obj\Debug\Irrelvant.pdb

@@ -1,0 +1,6 @@
+5	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP4.png	756	0	252	354
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP7.png	504	0	252	354
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP3.png	252	0	252	354
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP6.png	0	0	252	354
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\shop\SHOP5.png	0	354	252	354

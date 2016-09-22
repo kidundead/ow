@@ -1,0 +1,15 @@
+14	filename	x	y	width	height
+1	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\c.png	112	0	112	112
+2	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\l.png	336	0	112	112
+3	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\h.png	0	112	112	112
+4	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\j.png	112	112	112	112
+5	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\k.png	224	112	112	112
+6	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\i.png	336	112	112	112
+7	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\a.png	0	224	112	112
+8	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\g.png	112	224	112	112
+9	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\14-3.png	224	224	112	112
+10	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\e.png	336	224	112	112
+11	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\d.png	0	336	112	112
+12	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\14.png	112	336	112	112
+13	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\M4-fix2.png	224	0	112	112
+14	D:\work3D\callofminizombies\1.0\Assets\Projects\Zombie3D\UI\Textures\UI2\weapons\small\M5-fix2.png	0	0	112	112
