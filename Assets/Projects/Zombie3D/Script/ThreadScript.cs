@@ -7,6 +7,7 @@ public class ThreadScript : MonoBehaviour
 {
 
 
+
     protected static Vector3 p = Vector3.zero;
     protected static float lastTime = 0;
     protected static object o = new object();
