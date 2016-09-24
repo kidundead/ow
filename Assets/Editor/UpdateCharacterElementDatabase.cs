@@ -47,7 +47,7 @@ class UpdateCharacterElementDatabase
 		Object o = AssetDatabase.LoadAssetAtPath(p, typeof(CharacterElementHolder));
 
         // Build the CharacterElementDatabase assetbundle.
-		BuildPipeline.BuildAssetBundle(o, null, CreateAssetbundles.AssetbundlePath + "CharacterElementDatabase.assetbundle");
+		//! BuildPipeline.BuildAssetBundle(o, null, CreateAssetbundles.AssetbundlePath + "CharacterElementDatabase.assetbundle");
 
         // Delete the ScriptableObject.
         AssetDatabase.DeleteAsset(p);

@@ -1,3 +1,8 @@
+// Upgrade NOTE: commented out 'float4x4 _CameraToWorld', a built-in variable
+// Upgrade NOTE: replaced '_CameraToWorld' with 'unity_CameraToWorld'
+// Upgrade NOTE: replaced '_LightMatrix0' with 'unity_WorldToLight'
+// Upgrade NOTE: replaced 'unity_World2Shadow' with 'unity_WorldToShadow'
+
 Shader "Hidden/Internal-PrePassLighting" {
 Properties {
 	_LightTexture0 ("", any) = "" {}
@@ -48,8 +53,8 @@ float4 _LightPos;
 float4 _LightColor;
 float4 _LightShadowData;
 float4 unity_LightmapFade;
-float4x4 _CameraToWorld;
-float4x4 _LightMatrix0;
+// float4x4 _CameraToWorld;
+float4x4 unity_WorldToLight;
 sampler2D _LightTextureB0;
 
 
@@ -63,7 +68,7 @@ sampler2D _LightTexture0;
 #if defined (SHADOWS_DEPTH)
 #if defined (SPOT)
 sampler2D _ShadowMapTexture;
-float4x4 unity_World2Shadow;
+float4x4 unity_WorldToShadow;
 #if defined (SHADOWS_SOFT)
 uniform float4 _ShadowOffsets[4];
 #endif
@@ -117,7 +122,7 @@ inline half unitySampleShadow (float4 shadowCoord)
 #if defined (SHADOWS_CUBE)
 #if defined (POINT) || defined (POINT_COOKIE)
 samplerCUBE _ShadowMapTexture;
-float4x4 unity_World2Shadow;
+float4x4 unity_WorldToShadow;
 inline float SampleCubeDistance (float3 vec)
 {
 	float4 packDist = texCUBE (_ShadowMapTexture, vec);
@@ -156,7 +161,7 @@ half ComputeShadow(float3 vec, float z, float2 uv)
 	
 	#if defined(SPOT)
 	#if defined(SHADOWS_DEPTH)
-	float4 shadowCoord = mul (unity_World2Shadow, float4(vec,1));
+	float4 shadowCoord = mul (unity_WorldToShadow, float4(vec,1));
 	return saturate(unitySampleShadow (shadowCoord) + fade);
 	#endif //SHADOWS_DEPTH
 	#endif
@@ -190,13 +195,13 @@ half4 frag (v2f i) : COLOR
 	float depth = tex2D (_CameraDepthTexture, uv).r;
 	depth = Linear01Depth (depth);
 	float4 vpos = float4(i.ray * depth,1);
-	float3 wpos = mul (_CameraToWorld, vpos).xyz;
+	float3 wpos = mul (unity_CameraToWorld, vpos).xyz;
 
 	#if defined (SPOT)	
 	float3 tolight = _LightPos.xyz - wpos;
 	half3 lightDir = normalize (tolight);
 	
-	float4 uvCookie = mul (_LightMatrix0, float4(wpos,1));
+	float4 uvCookie = mul (unity_WorldToLight, float4(wpos,1));
 	float atten = tex2Dproj (_LightTexture0, UNITY_PROJ_COORD(uvCookie)).w;
 	atten *= uvCookie.w < 0;
 	float att = dot(tolight, tolight) * _LightPos.w;
@@ -215,7 +220,7 @@ half4 frag (v2f i) : COLOR
 	atten *= ComputeShadow (wpos, vpos.z, uv);
 	
 	#if defined (DIRECTIONAL_COOKIE)
-	atten *= tex2D (_LightTexture0, mul(_LightMatrix0, half4(wpos,1)).xy).w;
+	atten *= tex2D (_LightTexture0, mul(unity_WorldToLight, half4(wpos,1)).xy).w;
 	#endif //DIRECTIONAL_COOKIE
 	#endif //DIRECTIONAL || DIRECTIONAL_COOKIE
 	
@@ -231,7 +236,7 @@ half4 frag (v2f i) : COLOR
 	atten *= ComputeShadow (tolight, vpos.z, uv);
 	
 	#if defined (POINT_COOKIE)
-	atten *= texCUBE(_LightTexture0, mul(_LightMatrix0, half4(wpos,1)).xyz).w;
+	atten *= texCUBE(_LightTexture0, mul(unity_WorldToLight, half4(wpos,1)).xyz).w;
 	#endif //POINT_COOKIE
 	
 	#endif //POINT || POINT_COOKIE
