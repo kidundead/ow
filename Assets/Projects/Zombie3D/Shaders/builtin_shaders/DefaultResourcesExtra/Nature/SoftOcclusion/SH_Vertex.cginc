@@ -1,3 +1,6 @@
+// Upgrade NOTE: commented out 'float4x4 _CameraToWorld', a built-in variable
+// Upgrade NOTE: replaced '_CameraToWorld' with 'unity_CameraToWorld'
+
 // Upgrade NOTE: replaced 'glstate.light[i].attenuation' with 'unity_LightAtten[i]'
 // Upgrade NOTE: replaced 'glstate.light[i].diffuse' with 'unity_LightColor[i]'
 // Upgrade NOTE: replaced 'glstate.light[i].position' with 'unity_LightPosition[i]'
@@ -18,7 +21,7 @@ struct v2f {
 	float4 color : COLOR0;
 };
 
-float4x4 _CameraToWorld;
+// float4x4 _CameraToWorld;
 float _HalfOverCutoff;
 
 v2f leaves(appdata_tree v)
@@ -47,7 +50,7 @@ v2f leaves(appdata_tree v)
 			#if UNITY_HAS_LIGHT_PARAMETERS
 				float3 toLight = unity_LightPosition[i].xyz - viewpos.xyz * unity_LightPosition[i].w;
 				toLight.yz *= -1.0;
-				lightDir.xyz = mul( (float3x3)_CameraToWorld, normalize(toLight) );
+				lightDir.xyz = mul( (float3x3)unity_CameraToWorld, normalize(toLight) );
 				float lengthSq = dot(toLight, toLight);
 				atten = 1.0 / (1.0 + lengthSq * unity_LightAtten[i].z);
 				
@@ -94,7 +97,7 @@ v2f bark(appdata_tree v)
 			#if UNITY_HAS_LIGHT_PARAMETERS
 				float3 toLight = unity_LightPosition[i].xyz - viewpos.xyz * unity_LightPosition[i].w;
 				toLight.yz *= -1.0;
-				lightDir.xyz = mul( (float3x3)_CameraToWorld, normalize(toLight) );
+				lightDir.xyz = mul( (float3x3)unity_CameraToWorld, normalize(toLight) );
 				float lengthSq = dot(toLight, toLight);
 				atten = 1.0 / (1.0 + lengthSq * unity_LightAtten[i].z);
 				

@@ -54,7 +54,7 @@ class CreateAssetbundles
             characterClone.AddComponent<SkinnedMeshRenderer>();
             Object characterBasePrefab = GetPrefab(characterClone, "characterbase");
             string path = AssetbundlePath + name + "_characterbase.assetbundle";
-            BuildPipeline.BuildAssetBundle(characterBasePrefab, null, path, BuildAssetBundleOptions.CollectDependencies);
+            //!  BuildPipeline.BuildAssetBundle(characterBasePrefab, null, path, BuildAssetBundleOptions.CollectDependencies);
             AssetDatabase.DeleteAsset(AssetDatabase.GetAssetPath(characterBasePrefab));
 
             // Collect materials.
@@ -97,7 +97,7 @@ class CreateAssetbundles
                 // Save the assetbundle.
                 string bundleName = name + "_" + smr.name.ToLower();
                 path = AssetbundlePath + bundleName + ".assetbundle";
-                BuildPipeline.BuildAssetBundle(null, toinclude.ToArray(), path, BuildAssetBundleOptions.CollectDependencies);
+                //! BuildPipeline.BuildAssetBundle(null, toinclude.ToArray(), path, BuildAssetBundleOptions.CollectDependencies);
                 Debug.Log("Saved " + bundleName + " with " + (toinclude.Count - 2) + " materials");
 
                 // Delete temp assets.
